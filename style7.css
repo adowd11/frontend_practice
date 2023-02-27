@@ -1,0 +1,25 @@
+.nav__link {
+    color: black;
+}
+
+.nav__link--active {
+    color: purple;
+    font-weight: bold;
+}
+
+
+/* 
+using flex-direction
+
+display: flex;
+flex-direction: column; - arranges items in direction noted
+align-items: center; - positions items in style noted
+justify-content: flex-start; - (default)
+                 space-around - equal spacing around
+                 space-between - left and right bound with centered items
+
+TO CENTER VERTICAL AND HORIZONTAL:
+display: flex;
+justify-content: center;
+align-items: center;
+*/

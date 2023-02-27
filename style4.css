@@ -1,0 +1,49 @@
+body {
+    height: 200vh;
+}
+
+div {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.blue {
+    background-color: blue;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.child {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.purple {
+    background-color: purple;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.yellow{
+    background-color: yellow;
+    position: sticky;
+    top: 100px;
+    width: 100%;
+    box-sizing: border-box;
+}

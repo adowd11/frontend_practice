@@ -1,0 +1,34 @@
+/* 
+using flex-direction
+
+display: flex;
+flex-direction: column; - arranges items in direction noted
+align-items: center; - positions items in style noted
+justify-content: flex-start; - (default)
+                 space-around - equal spacing around
+                 space-between - left and right bound with centered items
+
+TO CENTER VERTICAL AND HORIZONTAL:
+display: flex; - df shortcut
+justify-content: center; - jcc shortcut
+align-items: center; - aic shortcut
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
